@@ -1,19 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Photo from './profile/ProfilPhoto.js';
+import Name from './profile/Name.js';
+import React from 'react';
 
-import Container from './container/container.js';
 
-function App() {
+class  App extends React.Component {
 
-  return (
-  
+  constructor(props){
+    
+    super(props);
+
+  }
+
+  render() {
+
       <>
-
-       <Container/>
+    <Photo/>
+    <Name/>
     </>
-  
 
   );
+
+    }
+
+
 }
 
 export default App;

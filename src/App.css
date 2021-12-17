@@ -27,11 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-.main{
-  height: 100vh;
-  width: 100%;
 
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,20 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-body {
-
-  background-image: linear-gradient(to right, #6eadff, #ababf6, #d0abe7, #e6afd8, #f0b8cc);
-  background-size: cover;
-  background-repeat: no-repeat; 
-}
-
-
