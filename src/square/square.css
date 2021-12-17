@@ -1,0 +1,15 @@
+
+.carre {
+
+    position: absolute;
+    background-color : black;
+    top: 0;
+    left: 0;
+    width : 50%;
+    height : 95%;
+    opacity: 0.5;
+    text-align: center;
+    padding-top: 90px;
+    
+
+}
